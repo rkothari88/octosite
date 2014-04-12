@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .bundle
 .DS_Store
 .sass-cache
@@ -11,3 +12,29 @@ source/_stash
 source/stylesheets/screen.css
 vendor
 node_modules
+=======
+*.rbc
+capybara-*.html
+.rspec
+/log
+/tmp
+/db/*.sqlite3
+/public/system
+/coverage/
+/spec/tmp
+**.orig
+rerun.txt
+pickle-email-*.html
+config/initializers/secret_token.rb
+config/secrets.yml
+
+## Environment normalisation:
+/.bundle
+/vendor/bundle
+
+# these should all be checked in to normalise the environment:
+# Gemfile.lock, .ruby-version, .ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+>>>>>>> 6732e8a19ea8e9afd5fcabc91fd0a2fa82bb692a
